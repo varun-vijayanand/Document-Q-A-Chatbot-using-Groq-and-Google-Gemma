@@ -1,0 +1,13 @@
+prefix=/Users/varunv/Desktop/Document Q&A Chatbot using Groq and Google Gemma/venv
+exec_prefix=/Users/varunv/Desktop/Document Q&A Chatbot using Groq and Google Gemma/venv
+libdir=/Users/varunv/Desktop/Document Q&A Chatbot using Groq and Google Gemma/venv/lib
+sharedlibdir=/Users/varunv/Desktop/Document Q&A Chatbot using Groq and Google Gemma/venv/lib
+includedir=/Users/varunv/Desktop/Document Q&A Chatbot using Groq and Google Gemma/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
